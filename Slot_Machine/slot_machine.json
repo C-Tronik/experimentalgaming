@@ -1,0 +1,4166 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 98,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adMobAppId": "",
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": false,
+    "linuxExecutableFilename": "",
+    "macExecutableFilename": "",
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "projectFile": "C:\\Users\\Utente\\Documents\\GDevelop projects\\Slot_Machine\\slot_machine.json",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "winExecutableFilename": "",
+    "winExecutableIconFile": "",
+    "name": "Progetto",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "ananas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ananas.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mela.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mela.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lampone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lampone.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fragola.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fragola.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cornice.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cornice.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "position_placeholder-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "position_placeholder-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "star.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "LuckiestGuy.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "LuckiestGuy.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "stock-vector-slot-machine-icons-set-130372319-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "stock-vector-slot-machine-icons-set-130372319-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "anguria.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "anguria.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cigliega.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cigliega.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "limone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "limone.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "machine.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "machine.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "machine-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "machine-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "prugna.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prugna.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "23279631_slot-machine-spin-3_by_sawtooz_preview.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "23279631_slot-machine-spin-3_by_sawtooz_preview.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net).mp3",
+        "userAdded": false
+      },
+      {
+        "file": "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net) (1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net) (1).mp3",
+        "userAdded": false
+      },
+      {
+        "file": "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net) (2).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net) (2).mp3",
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 240,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "NewScene",
+      "name": "NewScene",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 100,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 100,
+      "uiSettings": {
+        "grid": true,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 16,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 16,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.2888
+      },
+      "objectsGroups": [
+        {
+          "name": "machine",
+          "objects": [
+            {
+              "name": "slot3"
+            },
+            {
+              "name": "slot"
+            },
+            {
+              "name": "slot2"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "Numero",
+          "value": ""
+        },
+        {
+          "name": "cash",
+          "value": "1000"
+        },
+        {
+          "name": "vincita",
+          "value": "0"
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot",
+          "width": 100,
+          "x": 128,
+          "y": 192,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "slot",
+          "locked": false,
+          "name": "bottone",
+          "width": 128,
+          "x": 522,
+          "y": 505,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot",
+          "width": 100,
+          "x": 128,
+          "y": 320,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot",
+          "width": 100,
+          "x": 128,
+          "y": 64,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 704,
+          "layer": "",
+          "locked": false,
+          "name": "cornice",
+          "width": 800,
+          "x": 0,
+          "y": -96,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot",
+          "width": 100,
+          "x": 128,
+          "y": -64,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot",
+          "width": 100,
+          "x": 128,
+          "y": -192,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot",
+          "width": 100,
+          "x": 128,
+          "y": -320,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot",
+          "width": 100,
+          "x": 128,
+          "y": -448,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot",
+          "width": 100,
+          "x": 128,
+          "y": -576,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot",
+          "width": 100,
+          "x": 128,
+          "y": -704,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "placeholder",
+          "width": 0,
+          "x": 896,
+          "y": 0,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "128"
+            },
+            {
+              "name": "Y",
+              "value": "-64"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot",
+          "width": 100,
+          "x": 128,
+          "y": -832,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "placeholder",
+          "width": 0,
+          "x": 896,
+          "y": -160,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "128"
+            },
+            {
+              "name": "Y",
+              "value": "-192"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "placeholder",
+          "width": 0,
+          "x": 896,
+          "y": -288,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "128"
+            },
+            {
+              "name": "Y",
+              "value": "-320"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "placeholder",
+          "width": 0,
+          "x": 896,
+          "y": -448,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "128"
+            },
+            {
+              "name": "Y",
+              "value": "-448"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "placeholder",
+          "width": 0,
+          "x": 896,
+          "y": -576,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "128"
+            },
+            {
+              "name": "Y",
+              "value": "-576"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "placeholder",
+          "width": 0,
+          "x": 896,
+          "y": -736,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "128"
+            },
+            {
+              "name": "Y",
+              "value": "-704"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "placeholder",
+          "width": 0,
+          "x": 896,
+          "y": -896,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "128"
+            },
+            {
+              "name": "Y",
+              "value": "-832"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot2",
+          "width": 100,
+          "x": 320,
+          "y": -448,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot3",
+          "width": 100,
+          "x": 512,
+          "y": -576,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot2",
+          "width": 100,
+          "x": 320,
+          "y": -576,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot3",
+          "width": 100,
+          "x": 512,
+          "y": -704,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot2",
+          "width": 100,
+          "x": 320,
+          "y": -704,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot3",
+          "width": 100,
+          "x": 512,
+          "y": -832,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot2",
+          "width": 100,
+          "x": 320,
+          "y": 192,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot3",
+          "width": 100,
+          "x": 512,
+          "y": -64,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot2",
+          "width": 100,
+          "x": 320,
+          "y": 64,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot3",
+          "width": 100,
+          "x": 512,
+          "y": -192,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot2",
+          "width": 100,
+          "x": 320,
+          "y": -192,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot3",
+          "width": 100,
+          "x": 512,
+          "y": -320,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot2",
+          "width": 100,
+          "x": 320,
+          "y": -320,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot3",
+          "width": 100,
+          "x": 512,
+          "y": -448,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot2",
+          "width": 100,
+          "x": 320,
+          "y": -64,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot2",
+          "width": 100,
+          "x": 320,
+          "y": 320,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot2",
+          "width": 100,
+          "x": 320,
+          "y": -832,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot3",
+          "width": 100,
+          "x": 512,
+          "y": 320,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot3",
+          "width": 100,
+          "x": 512,
+          "y": 192,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "slot3",
+          "width": 100,
+          "x": 512,
+          "y": 64,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "placeholder2",
+          "width": 0,
+          "x": 1056,
+          "y": 0,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "320"
+            },
+            {
+              "name": "Y",
+              "value": "-64"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "placeholder2",
+          "width": 0,
+          "x": 1056,
+          "y": -160,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "320"
+            },
+            {
+              "name": "Y",
+              "value": "-192"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "placeholder2",
+          "width": 0,
+          "x": 1045.2,
+          "y": -302.376,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "320"
+            },
+            {
+              "name": "Y",
+              "value": "-320"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "placeholder2",
+          "width": 0,
+          "x": 1056,
+          "y": -448,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "320"
+            },
+            {
+              "name": "Y",
+              "value": "-448"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "placeholder2",
+          "width": 0,
+          "x": 1045.2,
+          "y": -572.354,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "320"
+            },
+            {
+              "name": "Y",
+              "value": "-567"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "placeholder2",
+          "width": 0,
+          "x": 1056,
+          "y": -736,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "320"
+            },
+            {
+              "name": "Y",
+              "value": "-704"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "placeholder2",
+          "width": 0,
+          "x": 1050.6,
+          "y": -883.542,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "320"
+            },
+            {
+              "name": "Y",
+              "value": "-832"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "place",
+          "width": 0,
+          "x": -128,
+          "y": -64,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "512"
+            },
+            {
+              "name": "Y",
+              "value": "-64"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "place",
+          "width": 0,
+          "x": -128,
+          "y": -224,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "512"
+            },
+            {
+              "name": "Y",
+              "value": "-192"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "place",
+          "width": 0,
+          "x": -128,
+          "y": -352,
+          "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "512"
+            },
+            {
+              "name": "Y",
+              "value": "-320"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "place",
+          "width": 0,
+          "x": -128,
+          "y": -512,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "512"
+            },
+            {
+              "name": "Y",
+              "value": "-448"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "place",
+          "width": 0,
+          "x": -128,
+          "y": -640,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "512"
+            },
+            {
+              "name": "Y",
+              "value": "-576"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "place",
+          "width": 0,
+          "x": -128,
+          "y": -768,
+          "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "512"
+            },
+            {
+              "name": "Y",
+              "value": "-704"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "place",
+          "width": 0,
+          "x": -128,
+          "y": -928,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X",
+              "value": "512"
+            },
+            {
+              "name": "Y",
+              "value": "-832"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "cash",
+          "width": 0,
+          "x": 64,
+          "y": 512,
+          "zOrder": 109,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "slot",
+          "locked": false,
+          "name": "spin",
+          "width": 0,
+          "x": 544,
+          "y": 512,
+          "zOrder": 110,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "rigioca",
+          "locked": false,
+          "name": "newgame",
+          "width": 0,
+          "x": 272,
+          "y": 368,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "rigioca",
+          "locked": false,
+          "name": "Lose",
+          "width": 0,
+          "x": 256,
+          "y": 192,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "rigioca",
+          "locked": false,
+          "name": "bottone2",
+          "width": 0,
+          "x": 256,
+          "y": 352,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "cashwin",
+          "width": 0,
+          "x": 64,
+          "y": 464,
+          "zOrder": 114,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "slot3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "7",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "stock-vector-slot-machine-icons-set-130372319-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "anguria",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "anguria.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "cigliega",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "cigliega.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "limone",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "limone.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "prugna",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "prugna.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "slot2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "7",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "stock-vector-slot-machine-icons-set-130372319-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "anguria",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "anguria.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "cigliega",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "cigliega.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "limone",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "limone.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "slot",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "7",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "stock-vector-slot-machine-icons-set-130372319-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "anguria",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "anguria.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "cigliega",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "cigliega.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "limone",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "limone.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bottone2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bottone",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cornice",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "cornice",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "cornice.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "placeholder2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "position_placeholder-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "placeholder",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "position_placeholder-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "additive": true,
+          "alphaParam": "Mutable",
+          "angleParam": "Mutable",
+          "blueParam": "Random",
+          "destroyWhenNoParticles": true,
+          "emissionEditionSimpleMode": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 360,
+          "emitterForceMax": 85,
+          "emitterForceMin": 26,
+          "emitterXDirection": 0,
+          "emitterYDirection": 1,
+          "emitterZDirection": 0,
+          "flow": 1,
+          "friction": 2,
+          "gravityEditionSimpleMode": true,
+          "greenParam": "Random",
+          "maxParticleNb": 25,
+          "name": "star_particle",
+          "particleAlpha1": 255,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 15,
+          "particleAngle2": 30,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 255,
+          "particleBlue2": 255,
+          "particleEditionSimpleMode": true,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGravityZ": 0,
+          "particleGreen1": 255,
+          "particleGreen2": 255,
+          "particleLifeTimeMax": 1.5,
+          "particleLifeTimeMin": 0.5,
+          "particleRed1": 255,
+          "particleRed2": 255,
+          "particleSize1": 1,
+          "particleSize2": 100,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "redParam": "Enabled",
+          "rendererParam1": 3,
+          "rendererParam2": 1,
+          "rendererType": "Quad",
+          "sizeParam": "Mutable",
+          "tags": "",
+          "tank": 25,
+          "textureParticleName": "star.png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 3,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "name": "place",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "position_placeholder-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "newgame",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "new game",
+          "font": "LuckiestGuy.ttf",
+          "characterSize": 35,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "cashwin",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "vincita:0",
+          "font": "LuckiestGuy.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 5,
+            "g": 117,
+            "r": 65
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "cash",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Cash:  100$",
+          "font": "LuckiestGuy.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "spin",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "spin",
+          "font": "LuckiestGuy.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Lose",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Hai perso",
+          "font": "LuckiestGuy.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "entry",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "slot",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "slot",
+                    "=",
+                    "RandomInRange(0, 4)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "slot2",
+                    "=",
+                    "RandomInRange(0, 4)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "slot3",
+                    "=",
+                    "RandomInRange(0, 4)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "spin",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "bottone",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "bottone",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "spin",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "cash",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"slot\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"spin\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "spin",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "cash",
+                "-",
+                "20"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "cashwin",
+                "=",
+                "\"Vincita:0\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "vincita",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "entry",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "23279631_slot-machine-spin-3_by_sawtooz_preview.mp3",
+                "",
+                "",
+                "3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "cash",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "spin",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"slot\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"rigioca\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"rigioca\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "bottone2",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "bottone",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"NewScene\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Spin",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "spin",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectPositionYTween"
+                  },
+                  "parameters": [
+                    "slot",
+                    "Tween",
+                    "\"spin\"",
+                    "slot.Y()+896",
+                    "\"easeInOutQuad\"",
+                    "500",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "0.2",
+                    "\"spin\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "spin",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectPositionYTween"
+                  },
+                  "parameters": [
+                    "slot2",
+                    "Tween",
+                    "\"spin\"",
+                    "slot2.Y()+896",
+                    "\"easeInOutQuad\"",
+                    "500",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "0.4",
+                    "\"spin\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "spin",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectPositionYTween"
+                  },
+                  "parameters": [
+                    "slot3",
+                    "Tween",
+                    "\"spin\"",
+                    "slot3.Y()+896",
+                    "\"easeInOutQuad\"",
+                    "500",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "Finisce lo spin",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "slot3",
+                    "Tween",
+                    "\"spin\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"click\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "disabled": false,
+                  "folded": false,
+                  "name": "Imposta Slot",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "machine",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PosY"
+                          },
+                          "parameters": [
+                            "machine",
+                            ">",
+                            "400"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "machine",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "place",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "slot3",
+                            "place.Variable(X)",
+                            "place.Variable(Y)",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PosY"
+                              },
+                              "parameters": [
+                                "slot3",
+                                "<",
+                                "45"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ChangeHeight"
+                              },
+                              "parameters": [
+                                "slot3",
+                                "=",
+                                "100"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ChangeWidth"
+                              },
+                              "parameters": [
+                                "slot3",
+                                "=",
+                                "100"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": [
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "disabled": false,
+                              "folded": false,
+                              "name": "probabilita",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "disabled": false,
+                                  "folded": false,
+                                  "type": "BuiltinCommonInstructions::JsCode",
+                                  "inlineCode": "runtimeScene.setBackgroundColor(100,100,240);\nvar myVar = runtimeScene.getVariables().get(\"Numero\");\n\nvar elenco_slot = new Array(1,1,4,4,4,3,0,3,3,2,2,2,2,2,3);\nfunction getRndInteger(min, max) {\n  return Math.floor(Math.random() * (max - min) ) + min;\n}\n\nvar casuale = getRndInteger(0,14)\nvar slot = elenco_slot[casuale]\n\nmyVar.setNumber(slot)",
+                                  "parameterObjects": "",
+                                  "useStrict": true
+                                },
+                                {
+                                  "disabled": false,
+                                  "folded": false,
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "ChangeAnimation"
+                                      },
+                                      "parameters": [
+                                        "slot3",
+                                        "=",
+                                        "Variable(Numero)"
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                }
+                              ],
+                              "parameters": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "placeholder2",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "slot2",
+                            "placeholder2.Variable(X)",
+                            "placeholder2.Variable(Y)",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PosY"
+                              },
+                              "parameters": [
+                                "slot2",
+                                "<",
+                                "45"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ChangeHeight"
+                              },
+                              "parameters": [
+                                "slot2",
+                                "=",
+                                "100"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ChangeWidth"
+                              },
+                              "parameters": [
+                                "slot2",
+                                "=",
+                                "100"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": [
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "disabled": false,
+                              "folded": false,
+                              "name": "probabilita",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "disabled": false,
+                                  "folded": false,
+                                  "type": "BuiltinCommonInstructions::JsCode",
+                                  "inlineCode": "runtimeScene.setBackgroundColor(100,100,240);\nvar myVar = runtimeScene.getVariables().get(\"Numero\");\n\nvar elenco_slot = new Array(1,1,4,4,4,3,3,3,3,2,2,2,2,2,0);\nfunction getRndInteger(min, max) {\n  return Math.floor(Math.random() * (max - min) ) + min;\n}\n\nvar casuale = getRndInteger(0,14)\nvar slot = elenco_slot[casuale]\n\nmyVar.setNumber(slot)",
+                                  "parameterObjects": "",
+                                  "useStrict": true
+                                },
+                                {
+                                  "disabled": false,
+                                  "folded": false,
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "ChangeAnimation"
+                                      },
+                                      "parameters": [
+                                        "slot2",
+                                        "=",
+                                        "Variable(Numero)"
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                }
+                              ],
+                              "parameters": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "placeholder",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "slot",
+                            "placeholder.Variable(X)",
+                            "placeholder.Variable(Y)",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PosY"
+                              },
+                              "parameters": [
+                                "slot",
+                                "<",
+                                "45"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ChangeHeight"
+                              },
+                              "parameters": [
+                                "slot",
+                                "=",
+                                "100"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ChangeWidth"
+                              },
+                              "parameters": [
+                                "slot",
+                                "=",
+                                "100"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": [
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "disabled": false,
+                              "folded": false,
+                              "name": "probabilita",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "disabled": false,
+                                  "folded": false,
+                                  "type": "BuiltinCommonInstructions::JsCode",
+                                  "inlineCode": "runtimeScene.setBackgroundColor(100,100,240);\nvar myVar = runtimeScene.getVariables().get(\"Numero\");\n\nvar elenco_slot = new Array(1,1,4,4,4,3,3,3,3,2,2,2,2,2,0);\nfunction getRndInteger(min, max) {\n  return Math.floor(Math.random() * (max - min) ) + min;\n}\n\nvar casuale = getRndInteger(0,14)\nvar slot=elenco_slot[casuale]\n\nmyVar.setNumber(slot)",
+                                  "parameterObjects": "",
+                                  "useStrict": true
+                                },
+                                {
+                                  "disabled": false,
+                                  "folded": false,
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "ChangeAnimation"
+                                      },
+                                      "parameters": [
+                                        "slot",
+                                        "=",
+                                        "Variable(Numero)"
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                }
+                              ],
+                              "parameters": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "disabled": false,
+                  "folded": true,
+                  "name": "Punteggio",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "slot",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PosY"
+                          },
+                          "parameters": [
+                            "slot",
+                            ">",
+                            "45"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PosY"
+                          },
+                          "parameters": [
+                            "slot",
+                            "<",
+                            "400"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "slot2",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "StrEqual"
+                              },
+                              "parameters": [
+                                "slot.AnimationName()",
+                                "=",
+                                "slot2.AnimationName()"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "PosY"
+                                  },
+                                  "parameters": [
+                                    "slot2",
+                                    "=",
+                                    "slot.Y()+9"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "PosY"
+                                  },
+                                  "parameters": [
+                                    "slot2",
+                                    "=",
+                                    "slot.Y()"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::ForEach",
+                              "object": "slot3",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "StrEqual"
+                                  },
+                                  "parameters": [
+                                    "slot2.AnimationName()",
+                                    "=",
+                                    "slot3.AnimationName()"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Or"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "PosY"
+                                      },
+                                      "parameters": [
+                                        "slot2",
+                                        "=",
+                                        "slot3.Y()+9"
+                                      ],
+                                      "subInstructions": []
+                                    },
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "PosY"
+                                      },
+                                      "parameters": [
+                                        "slot2",
+                                        "=",
+                                        "slot3.Y()"
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "Tween::AddObjectOpacityTween"
+                                  },
+                                  "parameters": [
+                                    "slot",
+                                    "Tween",
+                                    "\"trovato\"",
+                                    "125",
+                                    "\"easeInSine\"",
+                                    "200",
+                                    ""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "Tween::AddObjectOpacityTween"
+                                  },
+                                  "parameters": [
+                                    "slot3",
+                                    "Tween",
+                                    "\"trovato\"",
+                                    "125",
+                                    "\"easeInSine\"",
+                                    "200",
+                                    ""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "Tween::AddObjectOpacityTween"
+                                  },
+                                  "parameters": [
+                                    "slot2",
+                                    "Tween",
+                                    "\"trovato\"",
+                                    "125",
+                                    "\"easeInSine\"",
+                                    "200",
+                                    ""
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "disabled": false,
+                                  "folded": false,
+                                  "type": "BuiltinCommonInstructions::Link",
+                                  "include": {
+                                    "includeConfig": 0
+                                  },
+                                  "target": "tabella_punti"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PosY"
+                              },
+                              "parameters": [
+                                "slot2",
+                                "=",
+                                "192"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "PosY"
+                                  },
+                                  "parameters": [
+                                    "slot",
+                                    "=",
+                                    "64"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "PosY"
+                                  },
+                                  "parameters": [
+                                    "slot",
+                                    "=",
+                                    "320"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "StrEqual"
+                                  },
+                                  "parameters": [
+                                    "slot.AnimationName()",
+                                    "=",
+                                    "slot2.AnimationName()"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "disabled": false,
+                                  "folded": false,
+                                  "type": "BuiltinCommonInstructions::ForEach",
+                                  "object": "slot3",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "StrEqual"
+                                      },
+                                      "parameters": [
+                                        "slot2.AnimationName()",
+                                        "=",
+                                        "slot3.AnimationName()"
+                                      ],
+                                      "subInstructions": []
+                                    },
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "BuiltinCommonInstructions::Or"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "inverted": false,
+                                            "value": "PosY"
+                                          },
+                                          "parameters": [
+                                            "slot3",
+                                            "=",
+                                            "64"
+                                          ],
+                                          "subInstructions": []
+                                        },
+                                        {
+                                          "type": {
+                                            "inverted": false,
+                                            "value": "PosY"
+                                          },
+                                          "parameters": [
+                                            "slot3",
+                                            "=",
+                                            "320"
+                                          ],
+                                          "subInstructions": []
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "Tween::AddObjectOpacityTween"
+                                      },
+                                      "parameters": [
+                                        "slot",
+                                        "Tween",
+                                        "\"trovato\"",
+                                        "125",
+                                        "\"easeInSine\"",
+                                        "200",
+                                        ""
+                                      ],
+                                      "subInstructions": []
+                                    },
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "Tween::AddObjectOpacityTween"
+                                      },
+                                      "parameters": [
+                                        "slot3",
+                                        "Tween",
+                                        "\"trovato\"",
+                                        "125",
+                                        "\"easeInSine\"",
+                                        "200",
+                                        ""
+                                      ],
+                                      "subInstructions": []
+                                    },
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "Tween::AddObjectOpacityTween"
+                                      },
+                                      "parameters": [
+                                        "slot2",
+                                        "Tween",
+                                        "\"trovato\"",
+                                        "125",
+                                        "\"easeInSine\"",
+                                        "200",
+                                        ""
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": [
+                                    {
+                                      "disabled": false,
+                                      "folded": false,
+                                      "type": "BuiltinCommonInstructions::Link",
+                                      "include": {
+                                        "includeConfig": 0
+                                      },
+                                      "target": "tabella_punti"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "0.3",
+                "\"click\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "cash",
+                "=",
+                "\"cash:\"+VariableString(cash)+\"$\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "spin",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "name": "slot",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "rigioca",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [
+    {
+      "associatedLayout": "NewScene",
+      "lastChangeTimeStamp": 0,
+      "name": "tabella_punti",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "StrEqual"
+              },
+              "parameters": [
+                "slot3.AnimationName()",
+                "=",
+                "\"7\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "cash",
+                "+",
+                "100"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "vincita",
+                "+",
+                "100"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "cashwin",
+                "=",
+                "\"Vincita:+\"+VariableString(vincita)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net) (2).mp3",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "StrEqual"
+              },
+              "parameters": [
+                "slot3.AnimationName()",
+                "=",
+                "\"anguria\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "cash",
+                "+",
+                "70"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "vincita",
+                "+",
+                "70"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "cashwin",
+                "=",
+                "\"Vincita:+\"+VariableString(vincita)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "StrEqual"
+              },
+              "parameters": [
+                "slot3.AnimationName()",
+                "=",
+                "\"prugna\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "vincita",
+                "+",
+                "50"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "cash",
+                "+",
+                "50"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "cashwin",
+                "=",
+                "\"Vincita:+\"+VariableString(vincita)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net).mp3",
+                "",
+                "100",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "StrEqual"
+              },
+              "parameters": [
+                "slot3.AnimationName()",
+                "=",
+                "\"limone\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "cash",
+                "+",
+                "40"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "vincita",
+                "+",
+                "40"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "cashwin",
+                "=",
+                "\"Vincita:+\"+VariableString(vincita)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net).mp3",
+                "",
+                "100",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "StrEqual"
+              },
+              "parameters": [
+                "slot3.AnimationName()",
+                "=",
+                "\"cigliega\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "cash",
+                "+",
+                "20"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "vincita",
+                "+",
+                "20"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "cashwin",
+                "=",
+                "\"Vincita:+\"+VariableString(vincita)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net).mp3",
+                "",
+                "80",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    }
+  ],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
