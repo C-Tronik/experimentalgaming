@@ -270,6 +270,63 @@
         "metadata": "",
         "name": "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net) (2).mp3",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "joker.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "joker.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "joker-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "joker-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sette2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sette2.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "sette1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sette1.mp3",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "background.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "background.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "background1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "background1.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "games.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "games.mp3",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -302,7 +359,7 @@
         "gridWidth": 16,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.2888
+        "zoomFactor": 0.762
       },
       "objectsGroups": [
         {
@@ -361,9 +418,9 @@
           "height": 64,
           "layer": "slot",
           "locked": false,
-          "name": "bottone",
+          "name": "spin_button",
           "width": 128,
-          "x": 522,
+          "x": 640,
           "y": 505,
           "zOrder": 101,
           "numberProperties": [],
@@ -1372,7 +1429,7 @@
           "locked": false,
           "name": "spin",
           "width": 0,
-          "x": 544,
+          "x": 656,
           "y": 512,
           "zOrder": 110,
           "numberProperties": [],
@@ -1415,7 +1472,7 @@
           "height": 0,
           "layer": "rigioca",
           "locked": false,
-          "name": "bottone2",
+          "name": "Button_new_game",
           "width": 0,
           "x": 256,
           "y": 352,
@@ -1435,6 +1492,66 @@
           "x": 64,
           "y": 464,
           "zOrder": 114,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "auto_spin_button",
+          "width": 240,
+          "x": 326,
+          "y": 505,
+          "zOrder": 115,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "auto_spi",
+          "width": 0,
+          "x": 352,
+          "y": 512,
+          "zOrder": 116,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "auto_spin_info",
+          "width": 0,
+          "x": 64,
+          "y": 0,
+          "zOrder": 117,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 432,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "width": 656,
+          "x": 64,
+          "y": 32,
+          "zOrder": -3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1598,6 +1715,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "joker",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "joker-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1712,6 +1858,64 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "limone.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "prugna",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "prugna.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "joker",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "joker-removebg-preview.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1860,11 +2064,69 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "prugna",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "prugna.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "joker",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "joker-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
         {
-          "name": "bottone2",
+          "name": "Button_new_game",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -1903,7 +2165,46 @@
           ]
         },
         {
-          "name": "bottone",
+          "name": "auto_spin_button",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "spin_button",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -2214,6 +2515,44 @@
         {
           "bold": false,
           "italic": false,
+          "name": "auto_spin_info",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "auto_spin: deactivate",
+          "font": "LuckiestGuy.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "auto_spi",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "auto_spin",
+          "font": "LuckiestGuy.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
           "name": "spin",
           "smoothed": true,
           "tags": "",
@@ -2248,9 +2587,347 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "name": "Background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "background1.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "All'inizio della scena ----> modificare qui per valori statici indispensabili solo quando parte il gioco",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "entry",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "finito",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "autospin",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"game\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "musica_principale_bool",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "slot",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "slot",
+                        "=",
+                        "RandomInRange(0, 4)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "slot2",
+                        "=",
+                        "RandomInRange(0, 4)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "slot3",
+                        "=",
+                        "RandomInRange(0, 4)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "spin",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "Musica di sottofondo",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "4.0",
+                    "\"game\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "musica_principale_bool",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "games.mp3",
+                    "10",
+                    "40",
+                    "40",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "musica_principale_bool",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "musica_principale_bool",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "29.0",
+                    "\"game\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"game\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "musica_principale_bool",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Click su auto-spin ",
+          "comment2": ""
+        },
         {
           "disabled": false,
           "folded": false,
@@ -2259,11 +2936,45 @@
             {
               "type": {
                 "inverted": false,
-                "value": "DepartScene"
+                "value": "SourisSurObjet"
               },
               "parameters": [
+                "auto_spin_button",
+                "",
+                "",
                 ""
               ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "autospin",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -2274,103 +2985,58 @@
                 "value": "ModVarScene"
               },
               "parameters": [
-                "entry",
+                "autospin",
                 "=",
-                "0"
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "auto_spin_info",
+                "=",
+                "\"Auto_spin:Activated\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "auto_spin_info",
+                "\"65;117;5\""
               ],
               "subInstructions": []
             }
           ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "slot",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "slot",
-                    "=",
-                    "RandomInRange(0, 4)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "slot2",
-                    "=",
-                    "RandomInRange(0, 4)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "slot3",
-                    "=",
-                    "RandomInRange(0, 4)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "spin",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Click su spin-button oppure controlla se la variabile auto spin  e vera",
+          "comment2": ""
         },
         {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "bottone",
-                "Left"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "bottone",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
@@ -2409,6 +3075,60 @@
             {
               "type": {
                 "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "autospin",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "spin_button",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "bottone",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": [],
@@ -2436,18 +3156,6 @@
                 "spin",
                 "=",
                 "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "cash",
-                "-",
-                "20"
               ],
               "subInstructions": []
             },
@@ -2490,14 +3198,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlaySound"
+                "value": "ModVarScene"
               },
               "parameters": [
-                "",
-                "23279631_slot-machine-spin-3_by_sawtooz_preview.mp3",
-                "",
-                "",
-                "3"
+                "finito",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -2507,15 +3213,42 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "A volte per problemi delle animazioni tween quando si clicca in modo troppo veloce il tasto button succede che entrando nella condizione sopra la variabile spin sia a 1(quindi vera) ma animazione tween non parte cosi non soddisfando mai la condizione del FINE TWEEN che rimposta la variabile spin a 0 cosi facendo si controlla il timer spin se sia maggiore di 1 e la variabile finito che controlla che le animazioni siano realmente avvenute!!!",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "1.0",
+                "\"spin\""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
                 "value": "VarScene"
               },
               "parameters": [
-                "cash",
+                "finito",
                 "=",
                 "0"
               ],
@@ -2524,7 +3257,17 @@
             {
               "type": {
                 "inverted": false,
-                "value": "VarScene"
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
               },
               "parameters": [
                 "spin",
@@ -2532,85 +3275,16 @@
                 "0"
               ],
               "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"slot\""
-              ],
-              "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "ShowLayer"
+                "value": "ModVarScene"
               },
               "parameters": [
-                "",
-                "\"rigioca\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"rigioca\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "bottone2",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "bottone",
-                "Left"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"NewScene\"",
-                ""
+                "bool",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -2623,7 +3297,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Spin",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2655,6 +3329,20 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "23279631_slot-machine-spin-3_by_sawtooz_preview.mp3",
+                    "",
+                    "",
+                    "3"
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -2700,6 +3388,18 @@
                     "spin",
                     "=",
                     "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::IsPlaying"
+                  },
+                  "parameters": [
+                    "slot",
+                    "Tween",
+                    "\"spin\""
                   ],
                   "subInstructions": []
                 },
@@ -2764,6 +3464,18 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "Tween::IsPlaying"
+                  },
+                  "parameters": [
+                    "slot2",
+                    "Tween",
+                    "\"spin\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": [],
@@ -2784,6 +3496,240 @@
                     "\"easeInOutQuad\"",
                     "500",
                     ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "Quando animazione di spin e finia e gli ogetti slot e slot2 sono dentro la cornice è hanno animazione 7 fai partire un audio.",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "slot",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StrEqual"
+                  },
+                  "parameters": [
+                    "\"7\"",
+                    "=",
+                    "slot.AnimationName()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "slot",
+                    "Tween",
+                    "\"spin\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "slot",
+                    ">",
+                    "45"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "slot",
+                    "<",
+                    "400"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SoundPlaying"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "sette1.mp3",
+                    "",
+                    "100",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "bool",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "slot2",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StrEqual"
+                  },
+                  "parameters": [
+                    "\"7\"",
+                    "=",
+                    "slot2.AnimationName()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "slot2",
+                    "Tween",
+                    "\"spin\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "slot2",
+                    ">",
+                    "45"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "slot2",
+                    "<",
+                    "400"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bool",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SoundPlaying"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "sette2.mp3",
+                    "",
+                    "100",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "bool",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -2841,6 +3787,18 @@
                     "\"click\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "cash",
+                    "-",
+                    "20"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": [
@@ -2851,7 +3809,7 @@
                   "creationTime": 0,
                   "disabled": false,
                   "folded": false,
-                  "name": "Imposta Slot",
+                  "name": "Imposta Slot  1.elimino gli gli oggetti che sono scesi a causa dello spin è creo altri ogetti sopra la macchina",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
@@ -2891,7 +3849,7 @@
                     },
                     {
                       "disabled": false,
-                      "folded": false,
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::ForEach",
                       "object": "place",
                       "conditions": [],
@@ -2980,7 +3938,7 @@
                                   "disabled": false,
                                   "folded": false,
                                   "type": "BuiltinCommonInstructions::JsCode",
-                                  "inlineCode": "runtimeScene.setBackgroundColor(100,100,240);\nvar myVar = runtimeScene.getVariables().get(\"Numero\");\n\nvar elenco_slot = new Array(1,1,4,4,4,3,0,3,3,2,2,2,2,2,3);\nfunction getRndInteger(min, max) {\n  return Math.floor(Math.random() * (max - min) ) + min;\n}\n\nvar casuale = getRndInteger(0,14)\nvar slot = elenco_slot[casuale]\n\nmyVar.setNumber(slot)",
+                                  "inlineCode": "runtimeScene.setBackgroundColor(100,100,240);\nvar myVar = runtimeScene.getVariables().get(\"Numero\");\n\nvar elenco_slot = new Array(0,0,1,1,1,4,3,3,3,3,4,4,2,2,2,2);\nfunction getRndInteger(min, max) {\n  return Math.floor(Math.random() * (max - min) ) + min;\n}\n\nvar casuale = getRndInteger(0,elenco_slot.length)\nvar slot = elenco_slot[casuale]\n\nmyVar.setNumber(slot)",
                                   "parameterObjects": "",
                                   "useStrict": true
                                 },
@@ -3023,7 +3981,7 @@
                     },
                     {
                       "disabled": false,
-                      "folded": false,
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::ForEach",
                       "object": "placeholder2",
                       "conditions": [],
@@ -3112,7 +4070,7 @@
                                   "disabled": false,
                                   "folded": false,
                                   "type": "BuiltinCommonInstructions::JsCode",
-                                  "inlineCode": "runtimeScene.setBackgroundColor(100,100,240);\nvar myVar = runtimeScene.getVariables().get(\"Numero\");\n\nvar elenco_slot = new Array(1,1,4,4,4,3,3,3,3,2,2,2,2,2,0);\nfunction getRndInteger(min, max) {\n  return Math.floor(Math.random() * (max - min) ) + min;\n}\n\nvar casuale = getRndInteger(0,14)\nvar slot = elenco_slot[casuale]\n\nmyVar.setNumber(slot)",
+                                  "inlineCode": "runtimeScene.setBackgroundColor(100,100,240);\nvar myVar = runtimeScene.getVariables().get(\"Numero\");\n\nvar elenco_slot = new Array(0,0,1,1,1,4,3,3,3,3,4,4,2,2,2,2);\nfunction getRndInteger(min, max) {\n  return Math.floor(Math.random() * (max - min) ) + min;\n}\n\nvar casuale = getRndInteger(0,elenco_slot.length)\nvar slot = elenco_slot[casuale]\n\nmyVar.setNumber(slot)",
                                   "parameterObjects": "",
                                   "useStrict": true
                                 },
@@ -3155,7 +4113,7 @@
                     },
                     {
                       "disabled": false,
-                      "folded": false,
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::ForEach",
                       "object": "placeholder",
                       "conditions": [],
@@ -3244,7 +4202,7 @@
                                   "disabled": false,
                                   "folded": false,
                                   "type": "BuiltinCommonInstructions::JsCode",
-                                  "inlineCode": "runtimeScene.setBackgroundColor(100,100,240);\nvar myVar = runtimeScene.getVariables().get(\"Numero\");\n\nvar elenco_slot = new Array(1,1,4,4,4,3,3,3,3,2,2,2,2,2,0);\nfunction getRndInteger(min, max) {\n  return Math.floor(Math.random() * (max - min) ) + min;\n}\n\nvar casuale = getRndInteger(0,14)\nvar slot=elenco_slot[casuale]\n\nmyVar.setNumber(slot)",
+                                  "inlineCode": "runtimeScene.setBackgroundColor(100,100,240);\nvar myVar = runtimeScene.getVariables().get(\"Numero\");\n\nvar elenco_slot = new Array(0,0,1,1,1,4,3,3,3,3,4,4,2,2,2,2);\nfunction getRndInteger(min, max) {\n  return Math.floor(Math.random() * (max - min) ) + min;\n}\n\nvar casuale = getRndInteger(0,elenco_slot.length)\nvar slot=elenco_slot[casuale]\n\nmyVar.setNumber(slot)",
                                   "parameterObjects": "",
                                   "useStrict": true
                                 },
@@ -3295,7 +4253,7 @@
                   "creationTime": 0,
                   "disabled": false,
                   "folded": true,
-                  "name": "Punteggio",
+                  "name": "Punteggio (algoritmo di calcolo dei punti ) DA RIVEDERE E MIGLIORARE --- c'è linkato gli eventi di tabella dei punti in base alle animazioni",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
@@ -3330,7 +4288,20 @@
                           "subInstructions": []
                         }
                       ],
-                      "actions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "finito",
+                            "+",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
                       "events": [
                         {
                           "disabled": false,
@@ -3448,7 +4419,7 @@
                                     "slot",
                                     "Tween",
                                     "\"trovato\"",
-                                    "125",
+                                    "255",
                                     "\"easeInSine\"",
                                     "200",
                                     ""
@@ -3464,7 +4435,7 @@
                                     "slot3",
                                     "Tween",
                                     "\"trovato\"",
-                                    "125",
+                                    "255",
                                     "\"easeInSine\"",
                                     "200",
                                     ""
@@ -3480,7 +4451,7 @@
                                     "slot2",
                                     "Tween",
                                     "\"trovato\"",
-                                    "125",
+                                    "255",
                                     "\"easeInSine\"",
                                     "200",
                                     ""
@@ -3637,7 +4608,7 @@
                                         "slot",
                                         "Tween",
                                         "\"trovato\"",
-                                        "125",
+                                        "255",
                                         "\"easeInSine\"",
                                         "200",
                                         ""
@@ -3653,7 +4624,7 @@
                                         "slot3",
                                         "Tween",
                                         "\"trovato\"",
-                                        "125",
+                                        "255",
                                         "\"easeInSine\"",
                                         "200",
                                         ""
@@ -3669,7 +4640,7 @@
                                         "slot2",
                                         "Tween",
                                         "\"trovato\"",
-                                        "125",
+                                        "255",
                                         "\"easeInSine\"",
                                         "200",
                                         ""
@@ -3704,66 +4675,361 @@
           "parameters": []
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "folded": true,
+          "name": "Gestico i suoni e la variabile di spin affinche cliccando troppo velocemente il gioco non si spacca",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "Timer"
-              },
-              "parameters": [
-                "",
-                "0.3",
-                "\"click\""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "vincita",
+                    ">",
+                    "649"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "finito",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SoundPlaying"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net) (1).mp3",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             },
             {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "cash",
-                "=",
-                "\"cash:\"+VariableString(cash)+\"$\""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "vincita",
+                    "<",
+                    "650"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "vincita",
+                    ">",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "finito",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SoundPlaying"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net).mp3",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             },
             {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "spin",
-                "=",
-                "0"
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "0.3",
+                    "\"click\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "finito",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "cash",
+                    "=",
+                    "\"cash:\"+VariableString(cash)+\"$\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "spin",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "bool",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
-          "events": []
+          "parameters": []
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
+          "folded": true,
+          "name": "Quando il giocatore finisce i soldi nasconde il livello slot e mostra il livello rigioca ",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "cash",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "spin",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"slot\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"rigioca\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"rigioca\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Button_new_game",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "bottone",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"NewScene\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -3838,7 +5104,7 @@
               "parameters": [
                 "cash",
                 "+",
-                "100"
+                "1000"
               ],
               "subInstructions": []
             },
@@ -3850,7 +5116,7 @@
               "parameters": [
                 "vincita",
                 "+",
-                "100"
+                "1000"
               ],
               "subInstructions": []
             },
@@ -3865,23 +5131,78 @@
                 "\"Vincita:+\"+VariableString(vincita)"
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net) (2).mp3",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SoundPlaying"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net) (2).mp3",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SoundPlaying"
+                  },
+                  "parameters": [
+                    "",
+                    "10"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "10"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -3910,7 +5231,7 @@
               "parameters": [
                 "cash",
                 "+",
-                "70"
+                "650"
               ],
               "subInstructions": []
             },
@@ -3922,7 +5243,7 @@
               "parameters": [
                 "vincita",
                 "+",
-                "70"
+                "650"
               ],
               "subInstructions": []
             },
@@ -3968,7 +5289,7 @@
               "parameters": [
                 "vincita",
                 "+",
-                "50"
+                "450"
               ],
               "subInstructions": []
             },
@@ -3980,7 +5301,7 @@
               "parameters": [
                 "cash",
                 "+",
-                "50"
+                "450"
               ],
               "subInstructions": []
             },
@@ -3993,20 +5314,6 @@
                 "cashwin",
                 "=",
                 "\"Vincita:+\"+VariableString(vincita)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net).mp3",
-                "",
-                "100",
-                "1"
               ],
               "subInstructions": []
             }
@@ -4040,7 +5347,7 @@
               "parameters": [
                 "cash",
                 "+",
-                "40"
+                "200"
               ],
               "subInstructions": []
             },
@@ -4052,7 +5359,7 @@
               "parameters": [
                 "vincita",
                 "+",
-                "40"
+                "200"
               ],
               "subInstructions": []
             },
@@ -4065,20 +5372,6 @@
                 "cashwin",
                 "=",
                 "\"Vincita:+\"+VariableString(vincita)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net).mp3",
-                "",
-                "100",
-                "1"
               ],
               "subInstructions": []
             }
@@ -4112,7 +5405,7 @@
               "parameters": [
                 "cash",
                 "+",
-                "20"
+                "100"
               ],
               "subInstructions": []
             },
@@ -4124,7 +5417,7 @@
               "parameters": [
                 "vincita",
                 "+",
-                "20"
+                "100"
               ],
               "subInstructions": []
             },
@@ -4139,20 +5432,6 @@
                 "\"Vincita:+\"+VariableString(vincita)"
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "25774670_egypt-slot-machine-casino-pack_by_aceaudio_preview (mp3cut.net).mp3",
-                "",
-                "80",
-                "1"
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
@@ -4160,7 +5439,61 @@
       ]
     }
   ],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "description": "",
+      "extensionNamespace": "",
+      "fullName": "",
+      "name": "NewExtension",
+      "shortDescription": "",
+      "tags": "",
+      "version": "",
+      "eventsFunctions": [
+        {
+          "description": "Modifica la variabile qundo vengono eseguiti tutti gli eventi del foglio",
+          "fullName": "Modifica Variabile alla fine foglio eventi",
+          "functionType": "Action",
+          "name": "Function",
+          "sentence": "",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "numero",
+              "longDescription": "",
+              "name": "Valore",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "nome variabile",
+              "longDescription": "",
+              "name": "Nome_var",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": []
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
