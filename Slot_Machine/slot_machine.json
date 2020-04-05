@@ -327,6 +327,114 @@
         "metadata": "",
         "name": "games.mp3",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "anguria-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "anguria-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "stock-vector-slot-machine-icons-set-130372319-removebg-preview-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "stock-vector-slot-machine-icons-set-130372319-removebg-preview-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "anguria-removebg-preview (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "anguria-removebg-preview (1).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "limone-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "limone-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "prugna-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prugna-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cigliega-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cigliega-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "line.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "line.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "line-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "line-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "layaotslotmachine.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "layaotslotmachine.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "image.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "image.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "image (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "image (4).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cornice-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cornice-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -352,14 +460,14 @@
         "grid": true,
         "gridB": 255,
         "gridG": 180,
-        "gridHeight": 16,
+        "gridHeight": 50,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridR": 158,
-        "gridWidth": 16,
+        "gridWidth": 50,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.762
+        "zoomFactor": 0.7526
       },
       "objectsGroups": [
         {
@@ -476,7 +584,7 @@
           "name": "cornice",
           "width": 800,
           "x": 0,
-          "y": -96,
+          "y": -100,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -1489,8 +1597,8 @@
           "locked": false,
           "name": "cashwin",
           "width": 0,
-          "x": 64,
-          "y": 464,
+          "x": 50,
+          "y": 450,
           "zOrder": 114,
           "numberProperties": [],
           "stringProperties": [],
@@ -1717,7 +1825,7 @@
               ]
             },
             {
-              "name": "joker",
+              "name": "find_7",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1726,7 +1834,123 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "joker-removebg-preview.png",
+                      "image": "stock-vector-slot-machine-icons-set-130372319-removebg-preview-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "find_anguria",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "anguria-removebg-preview (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "find_limone",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "limone-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "find_prugna",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "prugna-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "find_cigliega",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "cigliega-removebg-preview.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1906,7 +2130,7 @@
               ]
             },
             {
-              "name": "joker",
+              "name": "find_7",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1915,7 +2139,123 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "joker-removebg-preview.png",
+                      "image": "stock-vector-slot-machine-icons-set-130372319-removebg-preview-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "find_limone",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "limone-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "find_prugna",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "prugna-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "find_anguria",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "anguria-removebg-preview (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "find_cigliega",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "cigliega-removebg-preview.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1986,6 +2326,23 @@
                   "looping": false,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "anguria-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
                     {
                       "hasCustomCollisionMask": false,
                       "image": "anguria.png",
@@ -2095,7 +2452,7 @@
               ]
             },
             {
-              "name": "joker",
+              "name": "find_7",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2104,7 +2461,123 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "joker-removebg-preview.png",
+                      "image": "stock-vector-slot-machine-icons-set-130372319-removebg-preview-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "find_anguria",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "anguria-removebg-preview (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "find_prugna",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "prugna-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "find_limone",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "limone-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "find_cigliega",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "cigliega-removebg-preview.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2368,8 +2841,8 @@
           "emissionEditionSimpleMode": true,
           "emitterAngleA": 0,
           "emitterAngleB": 360,
-          "emitterForceMax": 85,
-          "emitterForceMin": 26,
+          "emitterForceMax": 20,
+          "emitterForceMin": 12,
           "emitterXDirection": 0,
           "emitterYDirection": 1,
           "emitterZDirection": 0,
@@ -2377,7 +2850,7 @@
           "friction": 2,
           "gravityEditionSimpleMode": true,
           "greenParam": "Random",
-          "maxParticleNb": 25,
+          "maxParticleNb": 3,
           "name": "star_particle",
           "particleAlpha1": 255,
           "particleAlpha2": 0,
@@ -2396,7 +2869,7 @@
           "particleGreen1": 255,
           "particleGreen2": 255,
           "particleLifeTimeMax": 1.5,
-          "particleLifeTimeMin": 0.5,
+          "particleLifeTimeMin": 0.3,
           "particleRed1": 255,
           "particleRed2": 255,
           "particleSize1": 1,
@@ -2409,10 +2882,10 @@
           "rendererType": "Quad",
           "sizeParam": "Mutable",
           "tags": "",
-          "tank": 25,
+          "tank": 3,
           "textureParticleName": "star.png",
           "type": "ParticleSystem::ParticleEmitter",
-          "zoneRadius": 3,
+          "zoneRadius": 2,
           "variables": [],
           "behaviors": []
         },
@@ -2607,6 +3080,45 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "background1.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "orizontal_win",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "line-removebg-preview.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2877,7 +3389,7 @@
                   },
                   "parameters": [
                     "",
-                    "29.0",
+                    "150",
                     "\"game\""
                   ],
                   "subInstructions": []
@@ -2925,7 +3437,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Click su auto-spin ",
+          "comment": "Click su auto-spin  ",
           "comment2": ""
         },
         {
@@ -2994,6 +3506,17 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"auto-spin\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "TextObject::String"
               },
               "parameters": [
@@ -3011,6 +3534,107 @@
               "parameters": [
                 "auto_spin_info",
                 "\"65;117;5\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "auto_spin_button",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "autospin",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "0.5",
+                "\"auto-spin\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "autospin",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "auto_spin_info",
+                "=",
+                "\"Auto_spin:Deactivated\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "auto_spin_info",
+                "\"208;2;27\""
               ],
               "subInstructions": []
             }
@@ -3204,6 +3828,17 @@
                 "finito",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "orizontal_win",
+                ""
               ],
               "subInstructions": []
             }
@@ -3929,8 +4564,8 @@
                               "colorR": 74,
                               "creationTime": 0,
                               "disabled": false,
-                              "folded": false,
-                              "name": "probabilita",
+                              "folded": true,
+                              "name": "Elenco probabilita modificare il vettore per decidere la probabilita della righa 1 della slot machine",
                               "source": "",
                               "type": "BuiltinCommonInstructions::Group",
                               "events": [
@@ -4061,8 +4696,8 @@
                               "colorR": 74,
                               "creationTime": 0,
                               "disabled": false,
-                              "folded": false,
-                              "name": "probabilita",
+                              "folded": true,
+                              "name": "Elenco probabilita modificare il vettore per decidere la probabilita della righa 2 della slot machine",
                               "source": "",
                               "type": "BuiltinCommonInstructions::Group",
                               "events": [
@@ -4193,8 +4828,8 @@
                               "colorR": 74,
                               "creationTime": 0,
                               "disabled": false,
-                              "folded": false,
-                              "name": "probabilita",
+                              "folded": true,
+                              "name": "Elenco probabilita modificare il vettore per decidere la probabilita della righa 2 della slot machine",
                               "source": "",
                               "type": "BuiltinCommonInstructions::Group",
                               "events": [
@@ -4252,7 +4887,7 @@
                   "colorR": 74,
                   "creationTime": 0,
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "name": "Punteggio (algoritmo di calcolo dei punti ) DA RIVEDERE E MIGLIORARE --- c'è linkato gli eventi di tabella dei punti in base alle animazioni",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -4413,47 +5048,13 @@
                                 {
                                   "type": {
                                     "inverted": false,
-                                    "value": "Tween::AddObjectOpacityTween"
+                                    "value": "Create"
                                   },
                                   "parameters": [
-                                    "slot",
-                                    "Tween",
-                                    "\"trovato\"",
-                                    "255",
-                                    "\"easeInSine\"",
-                                    "200",
-                                    ""
-                                  ],
-                                  "subInstructions": []
-                                },
-                                {
-                                  "type": {
-                                    "inverted": false,
-                                    "value": "Tween::AddObjectOpacityTween"
-                                  },
-                                  "parameters": [
-                                    "slot3",
-                                    "Tween",
-                                    "\"trovato\"",
-                                    "255",
-                                    "\"easeInSine\"",
-                                    "200",
-                                    ""
-                                  ],
-                                  "subInstructions": []
-                                },
-                                {
-                                  "type": {
-                                    "inverted": false,
-                                    "value": "Tween::AddObjectOpacityTween"
-                                  },
-                                  "parameters": [
-                                    "slot2",
-                                    "Tween",
-                                    "\"trovato\"",
-                                    "255",
-                                    "\"easeInSine\"",
-                                    "200",
+                                    "",
+                                    "orizontal_win",
+                                    "slot.X()",
+                                    "slot.Y()+20",
                                     ""
                                   ],
                                   "subInstructions": []
@@ -4598,56 +5199,7 @@
                                       ]
                                     }
                                   ],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "inverted": false,
-                                        "value": "Tween::AddObjectOpacityTween"
-                                      },
-                                      "parameters": [
-                                        "slot",
-                                        "Tween",
-                                        "\"trovato\"",
-                                        "255",
-                                        "\"easeInSine\"",
-                                        "200",
-                                        ""
-                                      ],
-                                      "subInstructions": []
-                                    },
-                                    {
-                                      "type": {
-                                        "inverted": false,
-                                        "value": "Tween::AddObjectOpacityTween"
-                                      },
-                                      "parameters": [
-                                        "slot3",
-                                        "Tween",
-                                        "\"trovato\"",
-                                        "255",
-                                        "\"easeInSine\"",
-                                        "200",
-                                        ""
-                                      ],
-                                      "subInstructions": []
-                                    },
-                                    {
-                                      "type": {
-                                        "inverted": false,
-                                        "value": "Tween::AddObjectOpacityTween"
-                                      },
-                                      "parameters": [
-                                        "slot2",
-                                        "Tween",
-                                        "\"trovato\"",
-                                        "255",
-                                        "\"easeInSine\"",
-                                        "200",
-                                        ""
-                                      ],
-                                      "subInstructions": []
-                                    }
-                                  ],
+                                  "actions": [],
                                   "events": [
                                     {
                                       "disabled": false,
@@ -5030,6 +5582,30 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SendRequest"
+              },
+              "parameters": [
+                "\"127.0.0.1\"",
+                "\"/blog\"",
+                "GlobalVariableString(d)",
+                "\"POST\"",
+                "\"\"",
+                "ciao"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
@@ -5129,6 +5705,42 @@
                 "cashwin",
                 "=",
                 "\"Vincita:+\"+VariableString(vincita)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "slot",
+                "=",
+                "0.85"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "slot2",
+                "=",
+                "0.85"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "slot3",
+                "=",
+                "0.85"
               ],
               "subInstructions": []
             }
@@ -5258,6 +5870,42 @@
                 "\"Vincita:+\"+VariableString(vincita)"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "slot2",
+                "=",
+                "0.85"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "slot",
+                "=",
+                "0.85"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "slot3",
+                "=",
+                "0.85"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -5314,6 +5962,42 @@
                 "cashwin",
                 "=",
                 "\"Vincita:+\"+VariableString(vincita)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "slot3",
+                "=",
+                "0.85"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "slot2",
+                "=",
+                "0.85"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "slot",
+                "=",
+                "0.85"
               ],
               "subInstructions": []
             }
@@ -5374,6 +6058,42 @@
                 "\"Vincita:+\"+VariableString(vincita)"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "slot3",
+                "=",
+                "0.85"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "slot",
+                "=",
+                "0.85"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "slot2",
+                "=",
+                "0.85"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -5432,6 +6152,42 @@
                 "\"Vincita:+\"+VariableString(vincita)"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "slot2",
+                "=",
+                "0.85"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "slot",
+                "=",
+                "0.85"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "slot3",
+                "=",
+                "0.85"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -5442,14 +6198,49 @@
   "eventsFunctionsExtensions": [
     {
       "author": "",
-      "description": "",
+      "description": "ssdcsdfds",
       "extensionNamespace": "",
-      "fullName": "",
+      "fullName": "ciao",
       "name": "NewExtension",
-      "shortDescription": "",
-      "tags": "",
-      "version": "",
+      "shortDescription": "ahahahhahah",
+      "tags": "ciao",
+      "version": "1.0",
       "eventsFunctions": [
+        {
+          "description": "dfdfdf",
+          "fullName": "dfsdf",
+          "functionType": "Action",
+          "name": "ddsfsdf",
+          "sentence": "PARAM_0",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SendRequest"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
         {
           "description": "Modifica la variabile qundo vengono eseguiti tutti gli eventi del foglio",
           "fullName": "Modifica Variabile alla fine foglio eventi",
