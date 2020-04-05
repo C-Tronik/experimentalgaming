@@ -11,6 +11,8 @@ namespace Slot_api.Models
         public slotContext(DbContextOptions<slotContext> options)
             : base(options)
         {
+           
+
         }
 
         public virtual DbSet<Userinfo> Userinfo { get; set; }
@@ -53,6 +55,14 @@ namespace Slot_api.Models
                     .HasColumnType("varchar(30)")
                     .HasCharSet("latin1")
                     .HasCollation("latin1_swedish_ci");
+
+                entity.Property(e => e.role)
+                    .IsRequired()
+                    .HasColumnName("role")
+                    .HasColumnType("varchar(15)")
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci")
+                    .HasDefaultValueSql("'user'");
 
                 entity.Property(e => e.Password)
                     .IsRequired()

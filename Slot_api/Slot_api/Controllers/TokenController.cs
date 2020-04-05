@@ -5,13 +5,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Slot_api.Models;
-using Microsoft.EntityFrameworkCore;
+
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-
+using Microsoft.EntityFrameworkCore;
+using System.Security.Cryptography;
 
 namespace Slot_api.Controllers
 {
@@ -31,7 +32,7 @@ namespace Slot_api.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(Userinfo _userData)
         {
-
+           
             if (_userData != null && _userData.Email != null && _userData.Password != null)
             {
                 var user = await GetUser(_userData.Email, _userData.Password);
@@ -47,7 +48,8 @@ namespace Slot_api.Controllers
                     new Claim("firstName", user.Firstname),
                     new Claim("LastName", user.Lastname),
                     new Claim("UserName", user.Username),
-                    new Claim("Email", user.Email)
+                    new Claim("Email", user.Email),
+                    new Claim("role", user.role)
                    };
 
                     var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
@@ -56,7 +58,13 @@ namespace Slot_api.Controllers
 
                     var token = new JwtSecurityToken(_configuration["Jwt:Issuer"], _configuration["Jwt:Audience"], claims, expires: DateTime.UtcNow.AddDays(1), signingCredentials: signIn);
 
-                    return Ok(new JwtSecurityTokenHandler().WriteToken(token));
+
+
+                    // return Ok(new JwtSecurityTokenHandler().WriteToken(token));
+                    return Ok((new {token=  new JwtSecurityTokenHandler().WriteToken(token) ,  user.UserId , user.Score,user.Firstname}));
+
+
+
                 }
                 else
                 {
@@ -71,7 +79,40 @@ namespace Slot_api.Controllers
 
         private async Task<Userinfo> GetUser(string email, string password)
         {
+            password = Sha256_hash(password);
             return await _context.Userinfo.FirstOrDefaultAsync(u => u.Email == email && u.Password == password);
+            
+        }
+      
+
+
+
+
+
+        private string Sha256_hash(string value)
+        {
+            StringBuilder Sb = new StringBuilder();
+
+            using (var hash = SHA256.Create())
+            {
+                Encoding enc = Encoding.UTF8;
+                Byte[] result = hash.ComputeHash(enc.GetBytes(value));
+
+                foreach (Byte b in result)
+                    Sb.Append(b.ToString("x2"));
+            }
+
+            return Sb.ToString();
+
+        }
+
+        private IDisposable dispose()
+        {
+            return dispose();
         }
     }
+
+
+
+    
 }

@@ -13,5 +13,7 @@ namespace Slot_api.Models
         public string Password { get; set; }
         public DateTime Createdate { get; set; }
         public int Score { get; set; }
+
+        public string role { get; set; }
     }
 }
