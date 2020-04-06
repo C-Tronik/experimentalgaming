@@ -10,6 +10,8 @@ namespace Slot_api.estrazione.egypt
         public int[] First_line { set; get; }
         public int[] Second_line { set; get; }
         public int[] Tre_line { set; get; }
+        public int[] Fourty_line { set; get; }
+        public int[] Fifty_line { set; get; }
 
     }
 }

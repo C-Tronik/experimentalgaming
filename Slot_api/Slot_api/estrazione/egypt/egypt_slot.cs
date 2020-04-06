@@ -15,9 +15,11 @@ namespace Slot_api.estrazione.egypt
             var rand = new Random();
             Egypt_slot_estraction estrazione = new Egypt_slot_estraction
             {
-                First_line = new int[5] { numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)] },
-                Second_line = new int[5] { numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)] },
-                Tre_line = new int[5] { numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)] }
+                First_line = new int[3] { numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)] },
+                Second_line = new int[3] { numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)] },
+                Tre_line = new int[3] { numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)] },
+                Fourty_line = new int[3] { numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)] },
+                Fifty_line = new int[3] { numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)], numeri[rand.Next(0, numeri.Length)] }
             };
             // Controllare la vincita
             return estrazione;
